@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    <title>Spring Boot Facebook Application</title>
+</head>
+
+<body>
+    <h3>Connect to Facebook: </h3>
+
+    <form action="/connect/facebook" method="POST">
+        <input type="hidden" name="scope" value="user_posts"/>
+        <div class="formInfo">
+            <p>You're not connected to Facebook. Please click the login button below.</p>
+        </div>
+        <p><button type="submit">Connect</button></p>
+    </form>
+</body>
+
+</html>
